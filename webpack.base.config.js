@@ -10,7 +10,7 @@ module.exports = {
       exclude: /node_modules/,
       loader: 'babel-loader',
       options: {
-        presets: ['es2015', 'react'],
+        presets: ['env', 'react'],
         plugins: ['transform-object-rest-spread']
       }
     },
